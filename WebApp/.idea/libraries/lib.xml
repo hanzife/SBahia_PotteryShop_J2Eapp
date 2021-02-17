@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../javafx-sdk-15.0.1/lib" />
+      <root url="file://$PROJECT_DIR$/../../javafx-sdk-15.0.1/lib" />
+      <root url="jar://$PROJECT_DIR$/../../postgresql-42.2.18.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../javafx-sdk-15.0.1/lib" />
+      <root url="file://$PROJECT_DIR$/../../javafx-sdk-15.0.1/lib" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../javafx-sdk-15.0.1/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../javafx-sdk-15.0.1/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../javafx-sdk-15.0.1/lib" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../javafx-sdk-15.0.1/lib" recursive="false" type="SOURCES" />
+  </library>
+</component>
