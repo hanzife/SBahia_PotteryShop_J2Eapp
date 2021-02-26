@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="unnamed">
+    <output-path>$PROJECT_DIR$/out/artifacts/unnamed</output-path>
+    <root id="archive" name="unnamed.jar">
+      <element id="library" level="project" name="jakarta.servlet.jsp.jstl-2.0.0" />
+      <element id="library" level="project" name="postgresql-42.2.18" />
+    </root>
+  </artifact>
+</component>

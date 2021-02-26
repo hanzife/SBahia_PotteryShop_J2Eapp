@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="unnamed" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="46c1a95c-eeb1-4bc3-bd66-a051a43d47a0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Prototype/Products-AdminDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/Prototype/Products-AdminDashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prototype/Products.html" beforeDir="false" afterPath="$PROJECT_DIR$/Prototype/Products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prototype/Signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/Prototype/Signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prototype/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Prototype/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/src/main/java/ProductsAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/main/java/ProductsAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/src/main/java/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/main/java/SignUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/src/main/java/dao/ConnectDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/main/java/dao/ConnectDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/src/main/java/dao/daoArticleImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/main/java/dao/daoArticleImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/src/main/java/dao/daoUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/main/java/dao/daoUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/src/main/java/dao/daoUsersImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/main/java/dao/daoUsersImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/src/main/webapp/ProductsAdmin.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/src/main/webapp/SignUp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/main/webapp/SignUp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/src/main/webapp/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/main/webapp/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/SBabhiaPotteryShopJee-1.0-SNAPSHOT/ProductsAdmin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/SBabhiaPotteryShopJee-1.0-SNAPSHOT/ProductsAdmin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/SBabhiaPotteryShopJee-1.0-SNAPSHOT/SignUp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/SBabhiaPotteryShopJee-1.0-SNAPSHOT/SignUp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/SBabhiaPotteryShopJee-1.0-SNAPSHOT/WEB-INF/classes/ProductsAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/SBabhiaPotteryShopJee-1.0-SNAPSHOT/WEB-INF/classes/ProductsAdmin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/SBabhiaPotteryShopJee-1.0-SNAPSHOT/WEB-INF/classes/SignUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/SBabhiaPotteryShopJee-1.0-SNAPSHOT/WEB-INF/classes/SignUp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/SBabhiaPotteryShopJee-1.0-SNAPSHOT/WEB-INF/classes/dao/ConnectDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/SBabhiaPotteryShopJee-1.0-SNAPSHOT/WEB-INF/classes/dao/ConnectDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/SBabhiaPotteryShopJee-1.0-SNAPSHOT/WEB-INF/classes/dao/daoArticleImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/SBabhiaPotteryShopJee-1.0-SNAPSHOT/WEB-INF/classes/dao/daoArticleImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/SBabhiaPotteryShopJee-1.0-SNAPSHOT/WEB-INF/classes/dao/daoUsers.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/SBabhiaPotteryShopJee-1.0-SNAPSHOT/WEB-INF/classes/dao/daoUsers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/SBabhiaPotteryShopJee-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/SBabhiaPotteryShopJee-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/SBabhiaPotteryShopJee-1.0-SNAPSHOT/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/SBabhiaPotteryShopJee-1.0-SNAPSHOT/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/classes/ProductsAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/classes/ProductsAdmin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/classes/SignUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/classes/SignUp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/classes/dao/ConnectDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/classes/dao/ConnectDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/classes/dao/daoArticleImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/classes/dao/daoArticleImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/classes/dao/daoUsers.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/classes/dao/daoUsers.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1p0lTdReyAjmhfTB1O5unFWWNeW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jstl.jar" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15136719" />
+    <property name="project.structure.side.proportion" value="0.18275861" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\JEE Web Apps\SBabhia Pottery Shop\WebApp\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.411" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.411" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="11" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8000/WebApp_war_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="unnamed">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="c998fcd1-fbda-4dbd-a17a-c193e2a7b354" />
+        <option name="HTTP_PORT" value="8000" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50757" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="unnamed" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="AJP_PORT" value="1079" />
+        <option name="BASE_DIRECTORY_NAME" value="5bad576b-4e0b-4b0d-b09c-f5167a65f789" />
+        <option name="HTTP_PORT" value="8080" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50757" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46c1a95c-eeb1-4bc3-bd66-a051a43d47a0" name="Default Changelist" comment="" />
+      <created>1614327898571</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614327898571</updated>
+      <workItem from="1614327901156" duration="434000" />
+      <workItem from="1614328457596" duration="1760000" />
+      <workItem from="1614330278433" duration="1757000" />
+      <workItem from="1614332080770" duration="593000" />
+      <workItem from="1614332835724" duration="922000" />
+      <workItem from="1614334724548" duration="302000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

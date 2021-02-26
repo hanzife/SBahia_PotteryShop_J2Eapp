@@ -16,9 +16,10 @@ public class ProductsAdmin extends HttpServlet {
 
     daoArticleImp articles = new daoArticleImp();
 
+     /*
     public void init(HttpServletRequest request, HttpServletResponse response){
         
-        try {
+      try {
             List<Articles> articleCarte = articles.getAll();
             request.setAttribute("articleCarte", articleCarte);
             System.out.println(articleCarte.get(0).getNameArticle() );
@@ -31,12 +32,12 @@ public class ProductsAdmin extends HttpServlet {
             e.printStackTrace();
         }
 
-    }
+    }*/
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         String path = request.getServletPath();
-        if(path.equals("/Ajouter.test")){
+        if (path.equals("/Ajouter.test")) {
             System.out.println(ConnectDB.getCon());
             System.out.println("post");
             //Do Some stuff
@@ -50,7 +51,7 @@ public class ProductsAdmin extends HttpServlet {
             //request.getRequestDispatcher(url).forward(request, response);
 
             try {
-                Articles a = articles.saveArticle(new Articles(nameProduct, descProduct, Double.parseDouble(priceProduct), Integer.parseInt(qteProduct),imageProduct ));
+                Articles a = articles.saveArticle(new Articles(nameProduct, descProduct, Double.parseDouble(priceProduct), Integer.parseInt(qteProduct), imageProduct));
 
                 request.getRequestDispatcher("ProductsAdmin.jsp").forward(request, response);
             } catch (ClassNotFoundException | SQLException e) {
@@ -58,8 +59,7 @@ public class ProductsAdmin extends HttpServlet {
             }
             response.sendRedirect("all.test");
             //request.getRequestDispatcher("ProductsAdmin.jsp").forward(request, response);
-        }
-        else if (path.equals("/Update.test")){
+        } else if (path.equals("/Update.test")) {
 
             int idArticle = Integer.parseInt(request.getParameter("IdArticle"));
             String nameProduct = request.getParameter("Name");
@@ -69,12 +69,11 @@ public class ProductsAdmin extends HttpServlet {
             String imageProduct = request.getParameter("fileToUpload");
             System.out.println("hi");
             try {
-                articles.updateArticle(new Articles(idArticle,nameProduct, descProduct, Double.parseDouble(priceProduct), Integer.parseInt(qteProduct),imageProduct ));
+                articles.updateArticle(new Articles(idArticle, nameProduct, descProduct, Double.parseDouble(priceProduct), Integer.parseInt(qteProduct), imageProduct));
                 request.getRequestDispatcher("ProductsAdmin.jsp").forward(request, response);
             } catch (ClassNotFoundException | SQLException e) {
                 e.printStackTrace();
             }
-
 
 
             response.sendRedirect("all.test");
@@ -83,32 +82,31 @@ public class ProductsAdmin extends HttpServlet {
         }
 
 
-
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //request.getRequestDispatcher("ProductsAdmin.jsp").forward(request, response);
 
         String path = request.getServletPath();
-        if(path.equals("/all.test")){
+        if (path.equals("/all.test")) {
             List<Articles> articleCarte = null;
             System.out.println("all");
             try {
                 articleCarte = articles.getAll();
-                request.setAttribute("articleCarte",articleCarte);
+                request.setAttribute("articleCarte", articleCarte);
                 System.out.println(articleCarte.get(0).getPrice());
                 request.getRequestDispatcher("ProductsAdmin.jsp").forward(request, response);
             } catch (ClassNotFoundException e) {
                 e.printStackTrace();
             } catch (SQLException throwables) {
                 throwables.printStackTrace();
-            }catch(Exception e){
+            } catch (Exception e) {
 
                 e.printStackTrace();
 
             }
         }
-        if(path.equals("/Delete.test")){
+        if (path.equals("/Delete.test")) {
             int idArticle = Integer.parseInt(request.getParameter("id"));
             System.out.println("id" + idArticle);
 
@@ -124,7 +122,7 @@ public class ProductsAdmin extends HttpServlet {
         }
 
 
-        }
+    }
 
 }
 

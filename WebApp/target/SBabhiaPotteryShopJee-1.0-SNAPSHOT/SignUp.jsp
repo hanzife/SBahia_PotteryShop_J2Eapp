@@ -19,20 +19,19 @@
 
 <body class="w-4/5 mx-auto">
 
-<form method="post" action="Signup" class="shadow-xl p-10 bg-white max-w-xl rounded mx-auto mt-56">
+<form method="post" action="SignUp" class="shadow-xl p-10 bg-white max-w-xl rounded mx-auto mt-56">
     <h1 class="text-4xl font-black mb-4">Welcome to SBahia!</h1>
     <div class="mb-4 relative">
 
-        <label >Username</label>
+        <label>Username</label>
         <input
                 class="input border border-gray-400 appearance-none rounded w-full px-3 py-3 pt-5 pb-2 focus focus:border-indigo-600 focus:outline-none active:outline-none active:border-indigo-600"
                 id="username" type="text" name="username" autofocus>
-
     </div>
 
     <div class="mb-4 relative">
 
-        <label >Email</label>
+        <label>Email</label>
         <input
                 class="input border border-gray-400 appearance-none rounded w-full px-3 py-3 pt-5 pb-2 focus focus:border-indigo-600 focus:outline-none active:outline-none active:border-indigo-600"
                 id="email" type="text" name="email" autofocus>
@@ -42,19 +41,19 @@
 
     <div class="mb-4 relative">
 
-        <label >password</label>
+        <label>password</label>
         <input
                 class="input border border-gray-400 appearance-none rounded w-full px-3 py-3 pt-5 pb-2 focus focus:border-indigo-600 focus:outline-none active:outline-none active:border-indigo-600"
                 id="password" type="password" name="password" autofocus>
 
     </div>
     <button
-            class="bg-yellow-900	 hover:bg-brown-dark text-white font-bold py-3 px-6 rounded-xl w-full">Submit</button>
+            class="bg-yellow-900	 hover:bg-brown-dark text-white font-bold py-3 px-6 rounded-xl w-full">Submit
+    </button>
 
 
 </form>
 <div class="text-center"><a href="">Already have an account? login!</a></div>
-
 
 
 </body>

@@ -9,10 +9,12 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.List;
 
-public class daoUsers implements daoUsersImp{
+public class daoUsers implements daoUsersImp {
 
     @Override
     public Users getById(int IdUser) throws ClassNotFoundException, SQLException {
+
+
         return null;
     }
 
@@ -38,7 +40,7 @@ public class daoUsers implements daoUsersImp{
         if (rs.next()) {
             IdUser = rs.getInt(1);
         }
-        reponse = new Users( IdUser, u.getUsername(), u.getEmail(), u.getPassword());
+        reponse = new Users(IdUser, u.getUsername(), u.getEmail(), u.getPassword());
 
 
         return reponse;

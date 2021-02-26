@@ -9,7 +9,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class daoArticleImp implements daoArticle{
+public class daoArticleImp implements daoArticle {
 
     @Override
     public List<Articles> getAll() throws ClassNotFoundException, SQLException {
@@ -19,6 +19,7 @@ public class daoArticleImp implements daoArticle{
         System.out.println("creation de l'objet Statement");
 
         ResultSet resultat;
+
         String requete = "SELECT * FROM public.\"Articles\"";
 
         resultat = statement.executeQuery(requete);
@@ -40,7 +41,7 @@ public class daoArticleImp implements daoArticle{
         }
 
         return articles;
-        
+
     }
 
     @Override
@@ -53,7 +54,7 @@ public class daoArticleImp implements daoArticle{
 
         Articles reponse = null;
 
-         int IdArticle;
+        int IdArticle;
 
 
         IdArticle = -1;
@@ -72,12 +73,11 @@ public class daoArticleImp implements daoArticle{
         ResultSet rs = statement.getGeneratedKeys();
 
         if (rs.next()) {
-           IdArticle = rs.getInt(1);
+            IdArticle = rs.getInt(1);
         }
-        reponse = new Articles( IdArticle, a.getNameArticle(), a.getDescription(), a.getPrice(), a.getQteStock(), a.getImage());
+        reponse = new Articles(IdArticle, a.getNameArticle(), a.getDescription(), a.getPrice(), a.getQteStock(), a.getImage());
         return reponse;
     }
-
 
 
     @Override
@@ -100,7 +100,7 @@ public class daoArticleImp implements daoArticle{
         //ResultSet rs = statement.getGeneratedKeys();
 
 
-        reponse = new Articles( a.getIdArticle(), a.getNameArticle(), a.getDescription(), a.getPrice(), a.getQteStock(), a.getImage());
+        reponse = new Articles(a.getIdArticle(), a.getNameArticle(), a.getDescription(), a.getPrice(), a.getQteStock(), a.getImage());
         return reponse;
 
     }
@@ -109,7 +109,7 @@ public class daoArticleImp implements daoArticle{
     public int deleteById(int IdArticle) throws SQLException {
 
         PreparedStatement ps = ConnectDB.getCon().prepareStatement("DELETE FROM public.\"Articles\" WHERE \"IdArticle\" = ?");
-        ps.setInt(1,IdArticle);
+        ps.setInt(1, IdArticle);
         ps.executeUpdate();
 
         return 0;

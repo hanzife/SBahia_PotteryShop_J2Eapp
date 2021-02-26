@@ -21,10 +21,18 @@
 
     <servlet-mapping>
         <servlet-name>SignUp</servlet-name>
-        <url-pattern>SignUp</url-pattern>
+        <url-pattern>/SignUp</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>Products</servlet-name>
+        <servlet-class>Products</servlet-class>
+    </servlet>
 
+    <servlet-mapping>
+        <servlet-name>Products</servlet-name>
+        <url-pattern>*.Products</url-pattern>
+    </servlet-mapping>
 
 
 </web-app>
